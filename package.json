@@ -5,6 +5,7 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.5.10",
     "flowbite": "^2.2.1",
-    "tailwindcss-grid": "^1.2.1"
+    "tailwindcss-grid": "^1.2.1",
+    "taos": "^1.0.5"
   }
 }
