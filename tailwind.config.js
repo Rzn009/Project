@@ -3,8 +3,17 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "./node_modules/flowbite/**/*.js"],
   theme: {
     extend: {
-      fontFamily:{
-        'quantum':['Quantum Flat Hollow (BRK)', sans-serif]
+      fontFamily: {
+      'sans': ['Quantum Flat Hollow (BRK)', 'sans-serif'],
+      'serif': ['Lora', 'serif'],
+      'mono': ['Space Mono', 'monospace'],
+      'display': ['Montserrat', 'sans-serif'],
+      'body': ['Roboto', 'sans-serif'],
+    },
+      colors:{
+        dark_purple:"#000235",
+        btn_primary:"#7e7ee3",
+        heading_color:"#abd9d9",
       },
     },
   },
