@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-      'sans': ['Quantum Flat Hollow (BRK)', 'sans-serif'],
-      'serif': ['Lora', 'serif'],
-      'mono': ['Space Mono', 'monospace'],
-      'display': ['Montserrat', 'sans-serif'],
-      'body': ['Roboto', 'sans-serif'],
+        'quantum-flat-hollow': ['Quantum Flat Hollow (BRK)', 'sans-serif'],
+        'quantum-flat': ['Quantum Flat (BRK)', 'sans-serif'],
+        'quantum-round-hollow': ['Quantum Round Hollow (BRK)', 'sans-serif'],
+        'quantum-round': ['Quantum Round (BRK)', 'sans-serif'],
+        'quantum-taper': ['Quantum Taper (BRK)', 'sans-serif'],
     },
       colors:{
         dark_purple:"#000235",
