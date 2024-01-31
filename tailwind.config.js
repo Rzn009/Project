@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors:{
         dark_purple:"#000235",
-        btn_primary:"#7e7ee3",
+        btn_primary:"#81689D",
         heading_color:"#abd9d9",
       },
     },
