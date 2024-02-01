@@ -43,7 +43,15 @@
 
 
 
-<body style="background:linear-gradient(to bottom,#9a9af1,#5C258D,#000235); ">
+<body style="background-image: url(img/tail-16.avif); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; position: relative; ::before{
+    content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+}">
 
 
 
@@ -51,7 +59,7 @@
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
             <p href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="img/tail-3.png" alt="Problem" class="w-28">
-                <span class="self-center text-2xl  font-mono font-semibold whitespace-nowrap dark:text-white"
+                <span class="self-center text-2xl  font-mono font-semibold whitespace-nowrap  text-blue-700"
                     id="home-1">QuantumRealm</span>
             </p>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -76,15 +84,15 @@
                     </li>
                     <li>
                         <a href="#home"
-                            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                            class="block py-2 px-3 md:p-0 text-white/35  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
                     </li>
                     <li>
                         <a href="#home-3"
-                            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 d:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Names</a>
+                            class="block py-2 px-3 md:p-0 text-white/35  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 d:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Names</a>
                     </li>
                     <li>
                         <a href="#home-4"
-                            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Scientist</a>
+                            class="block py-2 px-3 md:p-0 text-white/35  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Scientist</a>
                     </li>
                 </ul>
             </div>
@@ -95,40 +103,40 @@
 
     <div class="container pt-9 pb-10 grid grid-cols-1 md:grid-cols-2 sm:mt-14 ">
         <div class="my-auto px-10 order-last lg:order-first sm:p-6  sm:mx-auto    lg:shadow-none">
-            <h1 class="mr-10 text-justify  lg:text-3xl sm:pb-10">
-                Quantum The mysterious <span class="text-fuchsia-300"> world hidden behind </span> particles and waves.</h1>
+            <h1 class="mr-10 text-justify text-white lg:text-3xl sm:pb-10">
+                Quantum The mysterious  world hidden behind  particles and waves.</h1>
         </div>
-        <div class=" sm:mx-auto lg:order-last">
-            <img src="img/tail-1.png" alt="">
+        <div class=" sm:mx-auto lg:order-last p-5  mix-blend-overlay rounded-full   border-white">
+            <img src="img/tail-15.png" alt="" class="w-80 animate-spin mix-blend-luminosity">
         </div>
     </div>
 
     <div class="container mx-auto p-9 mt-10">
         <div class=" grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 mx-auto">
             <div class="p-10 shadow-lg rounded-lg bg-transparent border mr-8  flex-wrap text-center mt-10">
-                <i class="fa-solid fa-disease"></i>
-                <h3 class="mt-12 mx-auto">Quantum particles move in an unpredictable dance of energy.</h3>
+                <i class="text-white/65 fa-solid fa-disease"></i>
+                <h3 class="mt-12 mx-auto text-white/95">Quantum particles move in an unpredictable dance of energy.</h3>
             </div>
             <div class="p-10 shadow-lg rounded-lg bg-transparent border mr-8 flex-wrap text-center mt-10">
-                <i class="fa-solid fa-flask"></i>
-                <h3 class="mt-12 mx-auto">Quantum, a place where uncertainty opens the door to unlimited potential.</h3>
+                <i class="text-white/65 fa-solid fa-flask"></i>
+                <h3 class="mt-12 mx-auto text-white/95">Quantum, a place where uncertainty opens the door to unlimited potential.</h3>
             </div>
             <div class="p-10 shadow-lg rounded-lg bg-transparent border mr-8 flex-wrap text-center mt-10">
-                <i class="fa-solid fa-atom"></i>
-                <h3 class="text-justify  mt-12">Atoms are the basic units of matter, making up everything around us.
+                <i class="text-white/65 fa-solid fa-atom"></i>
+                <h3 class="text-justify  text-white/95 mt-12">Atoms are the basic units of matter, making up everything around us.
                 </h3>
             </div>
         </div>
     </div>
 
-    <h1 class="text-center text-5xl text-purple-500 font-semibold mt-11" id="home">About Quantum</h1>
+    <h1 class="text-center text-5xl text-white/85 font-semibold mt-11" id="home">About Quantum</h1>
 
     <div class="container my-20  p-5  mx-auto lg:flex sm:border-none">
         <div class="mx-auto my-auto px-28 mb-0">
             <img src="img/tail-7.png" alt="" class="lg:min-w-[300px] md:w-56 md:mx-auto sm:min-w-[500px]">
         </div>
         <div class=" mt-10 lg:px-20 sm:px-0 ">
-            <p class="text-justify text-1xl order-first">Quantum is a domain in physics that studies the behavior of
+            <p class="text-justify text-1xl text-white/100 order-first">Quantum is a domain in physics that studies the behavior of
                 very small
                 particles, such as atoms and
                 subatomic particles. This theory describes the properties of these particles in terms of
@@ -138,15 +146,15 @@
     </div>
 
 
-    <h1 class="font-semibold mt-10 text-2xl lg:ml-12 lg:text-5xl md:text-4xl text-center text-btn_primary" id="home-3">
+    <h1 class="font-semibold mt-10 text-2xl lg:ml-12 lg:text-5xl md:text-4xl text-center text-white/90" id="home-3">
         quantum names</h1>
 
-    <div class="flex flex-wrap justify-center items-center mt-10 mx-aut transform hover:translate-y-2 duration-300">
-        <div class="w-80 mr-9 p-10 mt-5 bg-btn_primary rounded-xl ">
+    <div class="flex flex-wrap justify-center  items-center mt-10 mx-auto ">
+        <div class="w-80 mr-9 p-10 mt-5 bg-white/10 rounded-xl ">
             <img class="h-40 object-cover rounded-xl mx-auto mix-blend-luminosity" src="img/tail-8.jpg" alt="Problem">
             <div class="p-2">
-                <h2 class="font-bold text-lg text-center">QuantumNexus</h2>
-                <p class="text-xs my-5">A platform or system that integrates various aspects of the quantum world, such as
+                <h2 class="font-bold text-lg text-center text-white">QuantumNexus</h2>
+                <p class="text-xs my-5 text-white">A platform or system that integrates various aspects of the quantum world, such as
                     quantum computing,
                     quantum communications, and other quantum technologies.</p>
             </div>
@@ -154,12 +162,12 @@
                 <a role="button" href="#" class="bg-purple-600 px-3 py-1 rounded-lg">Lear More</a>
             </div>
         </div>
-        <div class="w-80 mr-9 p-10 mt-5 bg-btn_primary rounded-xl ">
+        <div class="w-80 mr-9 p-10 mt-5 bg-white/10 rounded-xl ">
             <img class="h-40 object-cover rounded-xl mx-auto mix-blend-luminosity " width="160" src="img/tail-9.jpg"
                 alt="Problem">
             <div class="p-2">
-                <h2 class="font-bold text-lg text-center">QuantumRipple</h2>
-                <p class="text-xs my-5">Acomprehensive platform or system that seamlessly integrates diverse facets of the
+                <h2 class="font-bold text-lg text-center text-white">QuantumRipple</h2>
+                <p class="text-xs my-5 text-white">Acomprehensive platform or system that seamlessly integrates diverse facets of the
                     quantum realm, including quantum computing, quantum communications.
                 </p>
             </div>
@@ -167,57 +175,57 @@
                 <a role="button" href="#" class="bg-purple-600 px-3 py-1 rounded-lg">Lear More</a>
             </div>
         </div>
-        <div class="w-80 mr-9 p-10 mt-5 bg-btn_primary rounded-xl ">
+        <div class="w-80 mr-9 p-10 mt-5 bg-white/10 rounded-xl ">
             <img class="h-40 object-cover rounded-xl mx-auto mix-blend-luminosity" src="img/tail-10.jpg" alt="Problem">
             <div class="p-2">
-                <h2 class="font-bold text-lg text-center">QuantaFlow</h2>
-                <p class="text-xs my-5"> is an integrated platform or system designed to harmonize multiple dimensions of the
+                <h2 class="font-bold text-lg text-center text-white">QuantaFlow</h2>
+                <p class="text-xs my-5 text-white"> is an integrated platform or system designed to harmonize multiple dimensions of the
                     quantum world, encompassing quantum computing, quantum communications.</p>
             </div>
             <div class="m-2">
                 <a role="button" href="#" class="bg-purple-600 px-3 py-1 rounded-lg">Lear More</a>
             </div>
         </div>
-        <div class="w-80 mr-9 p-10 mt-5  bg-btn_primary rounded-xl ">
+        <div class="w-80 mr-9 p-10 mt-5  bg-white/10 rounded-xl ">
             <img class="h-40 object-cover rounded-xl mx-auto mix-blend-luminosity" src="img/tail-11.jpg" alt="Problem">
             <div class="p-2">
-                <h2 class="font-bold text-lg text-center">QuantumLoom</h2>
-                <p class="text-xs my-5">A sophisticated platform or system engineered to weave together diverse elements of
+                <h2 class="font-bold text-lg text-center text-white">QuantumLoom</h2>
+                <p class="text-xs my-5 text-white">A sophisticated platform or system engineered to weave together diverse elements of
                     the quantum domain, spanning quantum computing.</p>
             </div>
             <div class="m-2">
                 <a role="button" href="#" class="bg-purple-600 px-3 py-1 rounded-lg">Lear More</a>
             </div>
         </div>
-        <div class="w-80 mr-9 p-10 mt-5  bg-btn_primary rounded-xl ">
+        <div class="w-80 mr-9 p-10 mt-5  bg-white/10 rounded-xl ">
             <img class="h-40 object-cover rounded-xl mx-auto mix-blend-luminosity" width="160" src="img/tail-12.jpg"
                 alt="Problem">
             <div class="p-2">
-                <h2 class="font-bold text-lg text-center">QuantumBurst</h2>
-                <p class="text-xs my-5">A represents a dynamic platform or system that unleashes a burst of capabilities
+                <h2 class="font-bold text-lg text-center text-white">QuantumBurst</h2>
+                <p class="text-xs my-5 text-white">A represents a dynamic platform or system that unleashes a burst of capabilities
                     within the quantum realm, encompassing cutting-edge technologies such as computing.</p>
             </div>
             <div class="m-2">
                 <a role="button" href="#" class="bg-purple-600 px-3 py-1 rounded-lg">Lear More</a>
             </div>
         </div>
-        <div class="w-80 mr-9 p-10 mt-5  bg-btn_primary rounded-xl ">
+        <div class="w-80 mr-9 p-10 mt-5  bg-white/10 rounded-xl ">
             <img class="h-40 object-cover rounded-xl mx-auto mix-blend-luminosity" src="img/tail-13.jpg" alt="Problem">
-            <div class="p-2">
-                <h2 class="font-bold text-lg text-center">QuantumWave</h2>
-                <p class="text-xs my-5">A embodies an advanced platform or system that rides the waves of the quantum realm,
+            <div class="p-3">
+                <h2 class="font-bold text-lg text-center text-white">QuantumWave</h2>
+                <p class="text-xs my-5 text-white">A embodies an advanced platform or system that rides the waves of the quantum realm,
                     integrating various facets including quantum computing</p>
             </div>
             <div class="m-2">
                 <a role="button" href="#" class="bg-purple-600 px-3 py-1 rounded-lg">Lear More</a>
             </div>
-        </div>
+        </div>      
     </div>
 
 
 
 
-    <h1 class="text-center text-3xl mt-52 text-btn_primary" id="home-4">The physicist</h1>
+    <h1 class="text-center text-3xl mt-52 text-white/90" id="home-4">The physicist</h1>
 
     <div class="text-center py-10">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 max-w-5xl mx-auto  gap-8">
@@ -263,7 +271,7 @@
             </div>
         </div>
 
-    </div>
+    </div>      
 
 
 
