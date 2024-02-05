@@ -1251,6 +1251,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   margin-top: 1.75rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -2174,8 +2178,16 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     display: flex;
   }
 
+  .sm\:h-20 {
+    height: 5rem;
+  }
+
   .sm\:min-w-\[500px\] {
     min-width: 500px;
+  }
+
+  .sm\:min-w-\[\] {
+    min-width: ;
   }
 
   .sm\:grid-cols-1 {
@@ -2184,6 +2196,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
   .sm\:items-center {
     align-items: center;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
   }
 
   .sm\:justify-between {
@@ -2205,6 +2221,11 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
   .sm\:pb-10 {
     padding-bottom: 2.5rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
