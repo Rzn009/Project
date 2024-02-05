@@ -1581,6 +1581,11 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-gray-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(17 24 39 / var(--tw-border-opacity));
+}
+
 .bg-blue-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(26 86 219 / var(--tw-bg-opacity));
@@ -1631,14 +1636,13 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   background-color: rgb(250 250 250 / 0.8);
 }
 
-.bg-gradient-to-t {
-  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+.bg-purple-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(172 148 250 / var(--tw-bg-opacity));
 }
 
-.from-background {
-  --tw-gradient-from: #4A00E0 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(74 0 224 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+.bg-gradient-to-t {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
 .from-background1 {
@@ -1647,12 +1651,16 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.to-background1 {
-  --tw-gradient-to: #8E2DE2 var(--tw-gradient-to-position);
-}
-
 .to-background {
   --tw-gradient-to: #4A00E0 var(--tw-gradient-to-position);
+}
+
+.to-white {
+  --tw-gradient-to: #ffffff var(--tw-gradient-to-position);
+}
+
+.to-white\/50 {
+  --tw-gradient-to: rgb(255 255 255 / 0.5) var(--tw-gradient-to-position);
 }
 
 .object-cover {
@@ -1751,6 +1759,11 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   padding-bottom: 0.75rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1761,6 +1774,14 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .pt-9 {
   padding-top: 2.25rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -1896,6 +1917,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .opacity-50 {
   opacity: 0.5;
+}
+
+.opacity-10 {
+  opacity: 0.1;
 }
 
 .mix-blend-overlay {
