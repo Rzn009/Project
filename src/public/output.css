@@ -1653,6 +1653,19 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   background-color: rgb(250 250 250 / 0.8);
 }
 
+.bg-purple-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(85 33 181 / var(--tw-bg-opacity));
+}
+
+.bg-purple-800\/45 {
+  background-color: rgb(85 33 181 / 0.45);
+}
+
+.bg-purple-800\/75 {
+  background-color: rgb(85 33 181 / 0.75);
+}
+
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
@@ -2010,6 +2023,11 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+.hover\:text-blue-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(30 66 159 / var(--tw-text-opacity));
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -2303,6 +2321,11 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   .md\:hover\:text-blue-700:hover {
     --tw-text-opacity: 1;
     color: rgb(26 86 219 / var(--tw-text-opacity));
+  }
+
+  .md\:hover\:text-blue-800:hover {
+    --tw-text-opacity: 1;
+    color: rgb(30 66 159 / var(--tw-text-opacity));
   }
 
   :is(.dark .md\:dark\:bg-gray-900) {
