@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="build.css">
+    <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="img/tail-3.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -45,7 +45,7 @@
 
 
 
-<body >
+<body class="dark:bg-black">
 
 
 
@@ -71,7 +71,7 @@
             </div>
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
                 <ul
-                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
                     <li>
                         <a href="#"
                             class="block py-2 px-3 md:p-0 text-sky-300 rounded md:bg-transparent md:hover:text-blue-800 md:dark:text-blue-500"
@@ -90,54 +90,68 @@
                             class="block py-2 px-3 md:p-0 text-sky-300    rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Scientist</a>
                     </li>
                 </ul>
+                <div class="lg:flex mr-10 hidden">
+                    <li><i class="text-white sun cursor-pointer mr-2 hover:animate-spin fa-solid  fa-sun"></i></li>
+                    <li><i class="text-white moon mr-2 cursor-pointer hover:animate-spin fa-solid  fa-moon"></i></li>
 
+                </div>
             </div>
         </div>
     </nav>
 
     <!-- Profile -->
 
-    <section class="container pt-9  grid grid-cols-1 md:grid-cols-2 h-screen overflow-hidden bg-no-repeat bg-cover " style="background-image: url(img/tail-20.avif);">
+    <section
+        class="container pt-9  grid grid-cols-1 md:grid-cols-2 dark:bg-[#8395a7] h-screen overflow-hidden bg-no-repeat bg-cover "
+        style="background-image: url(img/tail-20.avif);">
         <div class="my-auto px-10 order-last lg:order-first sm:p-6  sm:mx-auto  -mr-10  lg:shadow-none">
             <h1
                 class="mr-10 text-justify  text-transparent bg-clip-text bg-gradient-to-r from-white to-cyan-600 lg:text-3xl sm:pb-10">
                 Quantum The mysterious world hidden behind particles and waves.</h1>
-            <button class="bg-[#2980b9] py-2 px-10 rounded-lg border border-gray-900 mt-12 lg:mt-0">Explore</button>
+            <button
+                class="bg-[#2980b9]  dark:text-white py-2 px-10 rounded-lg border border-gray-900 mt-12 lg:mt-0">Explore</button>
         </div>
-        <div class="sm:mx-auto lg:order-last">
+        <div class="sm:mx-auto lg:order-last mt-0 lg:mt-20">
             <img src="img/tail-15.png" alt="" class="w-80 animate-spin flex justify-center ">
         </div>
     </section>
 
-    <div class="container mx-auto p-9  delay-[300ms] duration-[600ms] taos:translate-y-[-200px] bg-[#dcdde1] taos:opacity-0 ">
+    <div
+        class="container mx-auto p-9  delay-[300ms] duration-[600ms] taos:translate-y-[-200px] bg-[#dcdde1] taos:opacity-0 dark:bg-black ">
         <div class=" grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 mx-auto">
             <div class="p-10 shadow-lg rounded-lg bg-transparent border mr-8  flex-wrap text-center mt-10 lg:mt-0">
-                <i class="text-black fa-solid fa-disease"></i>
-                <h3 class="mt-12 mx-auto text-black">Quantum particles move in an unpredictable dance of energy.
+                <i class="text-black dark:text-white fa-solid fa-disease"></i>
+                <h3 class="mt-12 mx-auto text-black dark:text-white">Quantum particles move in an unpredictable dance of
+                    energy.
                 </h3>
             </div>
             <div class="p-10 shadow-lg rounded-lg bg-transparent border mr-8 flex-wrap text-center mt-10 lg:mt-0">
-                <i class="text-black fa-solid fa-flask"></i>
-                <h3 class="mt-12 mx-auto text-black">Quantum, a place where uncertainty opens the door to unlimited
+                <i class="text-black dark:text-white fa-solid fa-flask"></i>
+                <h3 class="mt-12 mx-auto text-black dark:text-white">Quantum, a place where uncertainty opens the door
+                    to unlimited
                     potential.</h3>
             </div>
             <div class="p-10 shadow-lg rounded-lg bg-transparent border mr-8 flex-wrap text-center mt-10 lg:mt-0">
-                <i class="text-black fa-solid fa-atom"></i>
-                <h3 class="text-justify  text-black mt-12">Atoms are the basic units of matter, making up everything
+                <i class="text-black dark:text-white fa-solid fa-atom"></i>
+                <h3 class="text-justify  text-black dark:text-white mt-12">Atoms are the basic units of matter, making
+                    up everything
                     around us.
                 </h3>
             </div>
         </div>
     </div>
 
-    <h1 class="text-center text-2xl text-black font-semibold  lg:mt-0 p-5 lg:text-4xl bg-[#dcdde1]" id="home">About Quantum</h1>
+    <h1 class="text-center text-2xl text-black font-semibold  lg:mt-0 p-5 lg:text-4xl dark:bg-black bg-[#dcdde1] dark:text-white"
+        id="home">About Quantum</h1>
 
-    <div class="container  lg:my-0  p-5  mx-auto sm:justify-center sm:items-center lg:flex sm:border-none bg-[#dcdde1]">
+    <div
+        class="container  lg:my-0  p-5  mx-auto sm:justify-center sm:items-center lg:flex sm:border-none bg-[#dcdde1] dark:bg-black">
         <div class="mx-auto my-auto px-28 mb-0">
             <img src="img/tail-7.png" alt="" class="lg:min-w-[300px] md:w-56 md:mx-auto sm:min-w-[500px]">
         </div>
         <div class=" mt-10 lg:px-20 sm:px-0 ">
-            <p class="text-justify text-1xl text-black order-first">Quantum is a domain in physics that studies the
+            <p class="text-justify text-1xl text-black order-first dark:text-white">Quantum is a domain in physics that
+                studies the
                 behavior of
                 very small
                 particles, such as atoms and
@@ -148,16 +162,18 @@
     </div>
 
 
-    <h1 class="font-semibold  lg:mt-0 text-2xl p-10 lg:text-5xl md:text-4xl text-center  text-black bg-[#dcdde1]"
+    <h1 class="font-semibold  lg:mt-0 text-2xl p-10 lg:text-5xl md:text-4xl text-center  text-black dark:bg-black bg-[#dcdde1] dark:text-white"
         id="home-3">
         quantum names</h1>
 
-    <div class="flex flex-wrap justify-center p-5 pb-10 items-center  mx-auto bg-gradient-to-b from-[#dcdde1] to-[#192a56]">
+    <div
+        class="flex flex-wrap justify-center p-5 pb-10 items-center  mx-auto dark:from-black dark:to-black bg-gradient-to-b from-[#dcdde1] to-[#192a56]">
         <div class="w-80 mr-9 p-10 mt-5 bg-white/10 rounded-xl ">
             <img class="h-40 object-cover rounded-xl mx-auto mix-blend-luminosity" src="img/tail-8.jpg" alt="Problem">
             <div class="p-2">
-                <h2 class="font-bold text-lg text-center text-black">QuantumNexus</h2>
-                <p class="text-xs my-5 text-black">A platform or system that integrates various aspects of the
+                <h2 class="font-bold text-lg text-center text-black dark:text-white">QuantumNexus</h2>
+                <p class="text-xs my-5 text-black dark:text-white">A platform or system that integrates various aspects
+                    of the
                     quantum
                     world, such as
                     quantum computing,
@@ -171,8 +187,9 @@
             <img class="h-40 object-cover rounded-xl mx-auto mix-blend-luminosity " width="160" src="img/tail-9.jpg"
                 alt="Problem">
             <div class="p-2">
-                <h2 class="font-bold text-lg text-center text-black">QuantumRipple</h2>
-                <p class="text-xs my-5 text-black">Acomprehensive platform or system that seamlessly integrates
+                <h2 class="font-bold text-lg text-center text-black dark:text-white">QuantumRipple</h2>
+                <p class="text-xs my-5 text-black dark:text-white">Acomprehensive platform or system that seamlessly
+                    integrates
                     diverse
                     facets of the
                     quantum realm, including quantum computing, quantum communications.
@@ -185,8 +202,9 @@
         <div class="w-80 mr-9 p-10 mt-5 bg-white/10 rounded-xl ">
             <img class="h-40 object-cover rounded-xl mx-auto mix-blend-luminosity" src="img/tail-10.jpg" alt="Problem">
             <div class="p-2">
-                <h2 class="font-bold text-lg text-center text-black">QuantaFlow</h2>
-                <p class="text-xs my-5 text-black"> is an integrated platform or system designed to harmonize
+                <h2 class="font-bold text-lg text-center text-black dark:text-white">QuantaFlow</h2>
+                <p class="text-xs my-5 text-black dark:text-white"> is an integrated platform or system designed to
+                    harmonize
                     multiple
                     dimensions of the
                     quantum world, encompassing quantum computing, quantum communications.</p>
@@ -198,8 +216,9 @@
         <div class="w-[320px] h-[444px] mr-9 p-10 mt-5  bg-white/10 rounded-xl ">
             <img class="h-40 object-cover rounded-xl mx-auto mix-blend-luminosity " src="img/tail-11.jpg" alt="Problem">
             <div class="p-2">
-                <h2 class="font-bold text-lg text-center text-black">QuantumLoom</h2>
-                <p class="text-xs my-5 text-black">A sophisticated platform or system engineered to weave together
+                <h2 class="font-bold text-lg text-center text-black dark:text-white">QuantumLoom</h2>
+                <p class="text-xs my-5 text-black dark:text-white">A sophisticated platform or system engineered to
+                    weave together
                     diverse elements of
                     the quantum domain, spanning quantum computing.</p>
             </div>
@@ -211,8 +230,9 @@
             <img class="h-40 object-cover rounded-xl mx-auto mix-blend-luminosity" width="160" src="img/tail-12.jpg"
                 alt="Problem">
             <div class="p-2">
-                <h2 class="font-bold text-lg text-center text-black">QuantumBurst</h2>
-                <p class="text-xs my-5 text-black">A represents a dynamic platform or system that unleashes a burst
+                <h2 class="font-bold text-lg text-center text-black dark:text-white">QuantumBurst</h2>
+                <p class="text-xs my-5 text-black dark:text-white">A represents a dynamic platform or system that
+                    unleashes a burst
                     of
                     capabilities
                     within the quantum realm, encompassing cutting-edge technologies such as computing.</p>
@@ -224,8 +244,9 @@
         <div class="w-[320px] mr-9 p-10 h-[444px]  mt-5  bg-white/10 rounded-xl ">
             <img class="h-40 object-cover rounded-xl mx-auto mix-blend-luminosity " src="img/tail-13.jpg" alt="Problem">
             <div class="p-3">
-                <h2 class="font-bold text-lg text-center text-black">QuantumWave</h2>
-                <p class="text-xs my-5 text-black">A embodies an advanced platform or system that rides the waves of
+                <h2 class="font-bold text-lg text-center text-black dark:text-white">QuantumWave</h2>
+                <p class="text-xs my-5 text-black dark:text-white">A embodies an advanced platform or system that rides
+                    the waves of
                     the
                     quantum realm,
                     integrating various facets including quantum computing</p>
@@ -239,14 +260,14 @@
 
 
 
-    <h1 class="text-center text-3xl bg-[#192a56] p-5 text-black/90" id="home-4">The physicist</h1>
+    <h1 class="text-center text-3xl bg-[#192a56] p-5 text-black/90 dark:text-white dark:bg-black" id="home-4">The physicist</h1>
 
-    <div class="text-center py-10 bg-[#192a56]">
+    <div class="text-center py-10 bg-[#192a56] dark:bg-black">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 max-w-5xl mx-auto  gap-8">
             <div class="bg-white/10 p-8 rounded-xl mix-blend-luminosity w-80 mr-2">
                 <img src="img/tail-4.jpg" alt="" class="rounded-lg h-48 mx-auto">
-                <h4 class="uppercase text-xl font-bold text-black mt-3">James Clerk Maxwell</h4>
-                <p class="text-sm leading-7 my-3 mb-24 font-light opacity-100  text-black text-center">was a Scottish
+                <h4 class="uppercase text-xl font-bold text-white/55 mt-3">James Clerk Maxwell</h4>
+                <p class="text-sm leading-7 my-3 mb-24 font-light opacity-100  text-white/55 text-center">was a Scottish
                     physicist
                     who made significant
                     contributions to the field of theoretical physics,
@@ -259,8 +280,8 @@
             </div>
             <div class="bg-white/10 p-8 rounded-xl mix-blend-luminosity w-80 mr-2">
                 <img src="img/tail-5.jpg" alt="" class="rounded-lg h-48 mx-auto">
-                <h4 class="uppercase text-xl font-bold text-black mt-3">Albert Einstein</h4>
-                <p class="text-sm leading-7 my-3 font-light opacity-100  text-black text-center">was a German-born
+                <h4 class="uppercase text-xl font-bold text-white/55 mt-3">Albert Einstein</h4>
+                <p class="text-sm leading-7 my-3 font-light opacity-100  text-white/55 text-center">was a German-born
                     physicist who made groundbreaking contributions to the field of theoretical physics, reshaping
                     our
                     understanding of the universe. Born on March 14, 1879, in Ulm, in the Kingdom of Württemberg in
@@ -275,9 +296,9 @@
             </div>
             <div class="bg-white/10 p-8 rounded-xl mix-blend-luminosity w-80 mr-2">
                 <img src="img/tail-6.jpg" alt="" class="rounded-lg h-48 mx-auto">
-                <h4 class="uppercase text-xl font-bold text-black mt-3">
+                <h4 class="uppercase text-xl font-bold text-white/55 mt-3">
                     Isaac Newton </h4>
-                <p class="text-sm leading-7 my-3 font-light opacity-100  text-black text-center"> was an English
+                <p class="text-sm leading-7 my-3 font-light opacity-100  text-white/55 text-center"> was an English
                     physicist and mathematician who made profound contributions to the field of theoretical physics,
                     particularly in the study of classical mechanics and the law of universal gravitation. Born on
                     December 25, 1642, in Woolsthorpe, Lincolnshire, England, Newton exhibited exceptional
@@ -299,19 +320,21 @@
 
 
 
-    <footer class="bg-[#192a56] dark:bg-gray-900">
+    <footer class="bg-[#192a56]  dark:bg-gradient-to-b dark:from-black dark:to-sky-600">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
                     <a href="https://flowbite.com/" class="flex items-center">
                         <img src="img/tail-3.png" class=" w-20 me-3" alt="FlowBite Logo" />
                         <span
-                            class="self-center text-2xl text-white/55 font-semibold whitespace-nowrap dark:text-white">Media Quantum</span>
+                            class="self-center text-2xl text-white/55 font-semibold whitespace-nowrap dark:text-white">Media
+                            Quantum</span>
                     </a>
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase text-white/55 dark:text-white">Resources</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase text-white/55 dark:text-white">
+                            Resources</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="https://flowbite.com/" class="hover:underline text-white/55">Quantum</a>
@@ -322,7 +345,8 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white text-white/55">Follow us</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white text-white/55">
+                            Follow us</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
@@ -333,7 +357,8 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white text-white/55">Legal</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white text-white/55">
+                            Legal</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Privacy Policy</a>
@@ -406,7 +431,7 @@
 
     <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
     <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
-    <script src="./app.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
